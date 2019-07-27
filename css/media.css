@@ -1,0 +1,213 @@
+@media (max-width: 1440px) {
+	.chat-img{
+	width: 100%;
+	transform: translateX(125px);
+    }
+    .chat-text{
+    	right: 15%;
+    }
+    footer{
+    	margin-top: 110px;
+    }
+
+}
+
+@media (max-width: 768px) {
+	body{
+		overflow-x : hidden;
+	}
+	.intro-heading{
+		font-size: 1.8rem;
+	}
+	.logo{
+		position: absolute;
+		margin-top: 120px;
+	}
+	.menu ul{
+		margin-right: 50px;
+	}
+	.sign-up{
+		width: 80px;
+		height: 40px;
+		margin-left: 10px;
+		font-size: 1.6rem;
+	}
+	.download-btn{
+		top: 64%;
+		width: 200px;
+		font-size: 1.5rem;
+	}
+	.platforms{
+		left: 45.3%;
+	}
+
+	/*chat-section*/
+
+	.chat-img{
+		transform: translateX(35px);
+	}
+	.chat-text{
+		width: 300px;
+		position: absolute;
+		top: 4.5%;
+		left: 3.5%;
+	}
+	.chat-text h2{
+		font-size: 3rem;
+	}
+	.chat-text p {
+		font-size: 1.5rem;
+	}
+
+	/*share-section*/
+	.share-text {
+		width: 400px;
+	}
+	.share-text h1{
+		font-size: 2.7rem;
+	}
+	.share-text p {
+		font-size: 1.5rem;
+	}
+	.face-img{
+		display: none;
+	}
+
+	/*call-section*/
+	.call-text_main{
+		width: 500px;
+		margin: 0 -55px;
+	}
+	.call-text {
+		width: 435px;
+	}
+	.call-text h2 {
+		padding-left: 12px;
+		font-size: 2.5rem;
+	}
+	.call-text_main p{
+		font-size: 1.7rem;
+		margin: 0 100px;
+	}
+	.call-rates{
+		margin: 55px 115px;
+	}
+	.share-phones{
+		display: none;
+	}
+	/*service-area*/
+	.services{
+		height: 2150px;
+	}
+	.services-wrapper {
+		width: 975px;
+		flex-wrap: wrap;
+		margin: 0 -150px;
+	}
+	.services-text{
+		margin-right: 170px;
+	}
+	.services-text h2{
+		font-size: 2rem;
+	}
+	.services-text p{
+		font-size: 1.5rem;
+	}
+	.services-main{
+		width: 650px;
+		flex-wrap: wrap;
+		margin: 0 120px;
+	}
+	.service-btn{
+		position: absolute;
+		bottom: -110%;
+		left: 40.5%;
+	}
+	.box{
+		flex-basis: 50%;
+	}
+
+	/*footer*/
+	.footer-img_container h3{
+		font-size: 1.25rem;
+	}
+	.footer-btn{
+		width: 170px;
+		height: 45px;
+		font-size: 1.35rem;
+	}
+	.label-left {
+		width: 500px;
+		font-size: 1.1rem;
+		margin-left: 10px;
+	}
+	.label-right{
+		margin-right: 10px;
+	}
+	.label-name {
+		font-size: 1.3rem;
+	}
+	.copyright{
+		font-size: 1.1rem;
+	}
+}
+
+
+@media (max-width: 900px) {
+	.chat-text {
+		left: 5%;
+		top: 3%;
+	}
+	.call-text_main{
+	padding: 150px 50px;
+    }
+    .call-rates{
+    	margin: 30px 100px;
+    }
+    .download-btn{
+		top: 64%;
+		width: 200px;
+		font-size: 1.5rem;
+	}
+}
+
+@media (max-width: 1300px) {
+	.chat-text{
+		right: 2%;
+	}
+}
+@media (max-width: 1200px) {
+	.chat-text{
+		right: -1%;
+		width: 375px
+	}
+	.chat-text h2{
+		font-size: 3.8rem;
+	}
+	.chat-text p{
+		font-size: 1.7rem;
+	}
+	.download-btn{
+		top: 64%;
+		width: 200px;
+		font-size: 1.5rem;
+	}
+}
+@media (max-width: 1100px) {
+	.chat-text{
+		left: 3%;
+		top: 5%;
+		width: 325px
+	}
+	.chat-text h2{
+		font-size: 3.5rem;
+	}
+	.chat-text p{
+		font-size: 1.7rem;
+	}
+	.download-btn{
+		top: 65%;
+		width: 200px;
+		font-size: 1.5rem;
+	}
+}
